@@ -4,12 +4,21 @@ import pandas as pd
 import streamlit as st
 
 def record():
-    # Option to append results to existing file, or create a new result file
-    f = st.file_uploader("Uploader fichier avec données précédentes", type='csv')
-    data = []
-    if f is not None:
-        data = pd.read_csv(f)
-        st.write(data.head())
+    # conn = st.connection('pyri_db', type='sql')
+    #
+    # with conn.session as s:
+    #     s.execute('CREATE TABLE IF NOT EXISTS pet_owners (person TEXT, pet TEXT);')
+    #     s.execute('DELETE FROM pet_owners;')
+    #     pet_owners = {'jerry': 'fish', 'barbara': 'cat', 'alex': 'puppy'}
+    #     for k in pet_owners:
+    #         s.execute(
+    #             'INSERT INTO pet_owners (person, pet) VALUES (:owner, :pet);',
+    #             params=dict(owner=k, pet=pet_owners[k])
+    #         )
+    #     s.commit()
+    # pet_owners = conn.query('select * from pet_owners')
+    # st.dataframe(pet_owners)
+
     date = st.date_input("Date", value="today", key="date", label_visibility="hidden")
 
     st.header("Traitement")
