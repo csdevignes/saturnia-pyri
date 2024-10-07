@@ -1,0 +1,8 @@
+﻿Date,Medicament,Dose,Par jour,Par semaine,Fatigue,Douleur,Brouillard mental,Sommeil,Derouillage matinal,Articulations,Soir heure rouille
+01.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 2, 1],[],3,3,4,moyen,0:30,['Pieds', 'Mains'],21:00
+02.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 1, 1],[],2,3,4,moyen,0:45,['Pieds', 'Mains'],21:30
+03.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 1, 1],[],1,3,4,moyen,0:15,['Pieds', 'Mains'],20:30
+04.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 1, 1],[],1,3,4,bon,0:15,['Pieds', 'Mains'],22:00
+05.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 1, 0],[],1,3,4,mauvais,0:00,['Mains'],
+06.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 0, 0],[],5,3,4,mauvais,0:30,['Pieds', 'Mains'],
+07.10.2024,['Plaquenil', 'Medrol', 'Bisoprolol'],['200mg', '4mg', '5mg'],[1, 0, 0],[],3,3,4,moyen,0:10,['Pieds'],22:00

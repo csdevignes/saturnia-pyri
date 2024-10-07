@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Library related
+.streamlit/secrets.toml
+
+# Excel files
+*.xlsx
 
 # Jupyter Notebook
 .ipynb_checkpoints
